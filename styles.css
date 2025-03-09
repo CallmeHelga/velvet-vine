@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Newsreader", serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+#navbar {
+    background-color: #ede8e2;
+}
+
+#logo img {
+    width: 100px;
+    margin-left: 40%;
+}
+
+.nav-item {
+    font-size: 27px;
+    padding: 5px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px #7c0018 solid;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.custom-btn {
+    color: #7c0018;
+    font-size: 25px;
+}
+
+.custom-btn:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+/* Home section */
+
+#home {
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bg-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+
+#home .content {
+    color: #ede8e2;
+    padding-top: 250px;
+    margin-left: 100px;
+}
+
+#home .content h1 {
+    font-size: 35px;
+}
+
+#home .content p {
+    font-size: 20px;
+}
+
+#btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px #7c0018 solid;
+    background-color: #ede8e2;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color: #7c0018;
+    color: #ede8e2;
+}
+
+/* About section */
+#about {
+    width: 100%;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+#about .heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #7c0018;
+}
+
+.heading span {
+    color: #7c0018;
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+    height: 95vh;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+#about .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+#about .btn {
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    border: 2px #7c0018 solid;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #ede8e26d;
+}
+
+#about .btn:hover {
+    background-color: #7c0018;
+    color: #ede8e2;
+}
+
+/* Products */
+#product {
+    width: 100%;
+}
+
+.heading1 {
+    text-align: center;
+    color: #7c0018;
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: bold;
+    border-bottom: 2px solid #7c0018;
+}
+
+#product .card {
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid #7c0018;
+    background-color: #ede8e26d;
+}
+
+#product .card h3 {
+    color: #7c0018;
+    text-align: center;
+    font-size: 23px;
+}
+
+#product p {
+    color: #7c0018;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+#product .cursor {
+    cursor: pointer;
+}
+
+#product .card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Gallery */
+#gallery {
+    width: 100%;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    font-weight: bold;
+    border-bottom: 2px solid #7c0018;
+}
+
+#gallery span {
+    color: #7c0018;
+}
+
+#gallery .card {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#gallery .card img {
+    border-radius: 10px;
+}
+
+/* Contacts */
+#contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contact .container {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, #ede8e2 80%, #7c0018 20%);
+    border-radius: 10px;
+}
+
+.heading3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.heading3 span {
+    color: #7c0018;
+}
+
+#contact p {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+#contact input {
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #7c0018;
+}
+
+#contact-btn {
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background: #7c0018;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#col {
+    width: 40%;
+    height: 45vh;
+    background: black;
+    margin-top: 78px;
+}
+
+#contact h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#contact #col p {
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 982px) {
+    .navbar-buttons {
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        display: flex;
+        gap: 10px;
+    }
+
+    #contact input {
+        width: 300px;
+    }
+
+    #col {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+    #about p {
+        font-size: 15px;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #about .card {
+        height: auto;
+    }
+
+    #product {
+        margin-top: 10vh;
+    }
+
+    #col {
+        width: 100%;
+        background: #7c0018;
+    }
+}
