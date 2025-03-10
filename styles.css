@@ -265,6 +265,12 @@ html {
     cursor: pointer;
 }
 
+#contact-btn:hover {
+    background-color: #ede8e26d;
+    color: #7c0018;
+    border: 1px #7c0018 solid;
+}
+
 #col {
     width: 40%;
     height: 45vh;
@@ -356,6 +362,10 @@ html {
     }
 
     .heading3 {
+        text-align: center;
+    }
+
+    #contact p {
         text-align: center;
     }
 }
